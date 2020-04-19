@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/mayukh1/projecturban/blob/master/projecturban'
+     git 'https://github.com/mayukh1/projecturban'
    }
    stage('Compile-Package'){
       // Get maven home path
